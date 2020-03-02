@@ -1,0 +1,30 @@
+###服务启动端口号
+server:
+  port: 8300
+spring:
+  application:
+    name: atc_gene
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wx?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+        timeout: 10000
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+
+

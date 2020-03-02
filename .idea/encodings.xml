@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/COMEntity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonApi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonApi/OrderApi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonApi/StorageApi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redisCommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redisCommon/CommUtils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redisCommon/redisEurcher" charset="UTF-8" />
+  </component>
+</project>
