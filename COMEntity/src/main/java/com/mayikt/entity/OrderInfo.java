@@ -11,5 +11,5 @@ public class OrderInfo {
     private Integer price;
     private Integer num;
     private int status;
-    private int sssss;
+    private int sssss55;
 }
